@@ -6,7 +6,7 @@ return (
     <footer className="footer">
         <p>© 2025 Alias AI | Smarter Code, Faster Development</p>
         <p>
-        <a href="https://github.com/jx22553/alias-ai-website" target="_blank" rel="noopener noreferrer" className="github-link">
+        <a href="https://github.com/jx22553/alias-ai" target="_blank" rel="noopener noreferrer" className="github-link">
             GitHub
         </a>
         </p>
