@@ -1,0 +1,311 @@
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Centered Content */
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* Rocket Animation */
+.glowing-icon {
+  font-size: 6rem;
+  color: #ffcc00;
+  text-shadow: 0px 0px 15px #ffcc00;
+}
+
+/* Title Styling */
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+/* Subtitle Styling */
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #f8f8f8;
+}
+
+/* Section Heading */
+.glowing-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #ff4081;
+  margin-top: 40px;
+}
+
+/* Description Text */
+.professional-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Features List */
+.features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.features-list p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+}
+
+.list-icon {
+  font-size: 1.2rem;
+  color: #ffcc00;
+}
+
+/* Visuals Section */
+.visuals {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.row-visuals {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
+
+/* Feature Boxes */
+.visual-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.visual-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Icons inside feature boxes */
+.visual-icon {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+/* Feature Text */
+.feature-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff4081, #ffcc00);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(90deg, #e60073, #ff9900);
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Install Page */
+.installation-container {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.installation-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.list-icon {
+  margin-right: 8px;
+  color: #ffcc00;
+  font-size: 1.2rem;
+}
+
+
+/* Navbar Styling */
+.navbar {
+  padding: 15px 20px;
+  background-color: #282c34;
+  text-align: left;
+}
+
+/* Navbar List */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Navbar Links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+  color: #61dafb;
+}
+
+/* Active Link (Current Page Highlight) */
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 3px solid #61dafb;
+  color: #61dafb;
+}
+
+/* General Container Styling */
+.installation-container {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Left-Aligned Content */
+.left-aligned-content {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Section Box Styling */
+.section-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Headings inside Sections */
+.glowing-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f8f8f8;
+}
+
+/* Installation Steps */
+.installation-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Icons */
+.list-icon {
+  color: #ffcc00;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+/* General Section Titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white
+}
+
+/* Section Box Styling */
+.section-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
